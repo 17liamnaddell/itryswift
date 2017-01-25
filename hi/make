@@ -1,0 +1,6 @@
+#!/usr/bin/make -f
+
+all: p1
+
+p1: main.swift
+	swiftc main.swift
